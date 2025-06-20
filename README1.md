@@ -32,23 +32,6 @@ RPG/시뮬레이션: 웹 기반으로 스토리를 따라가며 성장하는 게
 중급: Canvas API, Phaser.js(게임 엔진), localStorage (저장기능)
 고급: WebGL, WebSockets(실시간 통신), React + Three.js
 
-아주 간단한 텍스트 게임 구조
-
-<h1>당신은 어두운 방에 있습니다</h1>
-<p id="story">무엇을 할까요?</p>
-<button onclick="choose('left')">왼쪽 문 열기</button>
-<button onclick="choose('right')">오른쪽 문 열기</button>
-
-<script>
-  function choose(direction) {
-    if (direction === 'left') {
-      document.getElementById('story').innerText = "괴물이 나타났다!";
-    } else {
-      document.getElementById('story').innerText = "빛이 보입니다!";
-    }
-  }
-</script>
-
 HTML 버전(시간 여행자의 메모장)
 
 <!DOCTYPE html>

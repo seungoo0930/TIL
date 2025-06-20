@@ -34,6 +34,7 @@ RPG/시뮬레이션: 웹 기반으로 스토리를 따라가며 성장하는 게
 
 HTML 버전(시간 여행자의 메모장)
 
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
